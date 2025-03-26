@@ -1,6 +1,2 @@
-C:/projetos/analise-churn-empresa-telefonia/dados/* filter=lfs diff=lfs merge=lfs -text
-C:/projetos/analise-churn-empresa-telefonia/analise-de-churn.ipynb filter=lfs diff=lfs merge=lfs -text
-C:/projetos/analise-churn-empresa-telefonia/analise-de-churn.ipynb filter=lfs diff=lfs merge=lfs -text
-C:/projetos/analise-churn-empresa-telefonia/dados/* filter=lfs diff=lfs merge=lfs -text
-C:/projetos/analise-churn-empresa-telefonia/dados/cancelamentos.csv filter=lfs diff=lfs merge=lfs -text
-C:/projetos/analise-churn-empresa-telefonia/analise-de-churn.ipynb filter=lfs diff=lfs merge=lfs -text
+dados/cancelamentos.csv filter=lfs diff=lfs merge=lfs -text
+analise-de-churn.ipynb filter=lfs diff=lfs merge=lfs -text
