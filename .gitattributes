@@ -1,2 +1,0 @@
-dados/cancelamentos.csv filter=lfs diff=lfs merge=lfs -text
-analise-de-churn.ipynb filter=lfs diff=lfs merge=lfs -text
