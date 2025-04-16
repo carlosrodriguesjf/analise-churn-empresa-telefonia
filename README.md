@@ -1,4 +1,4 @@
-# ANÁLISE DE CHURN
+# PROJETO ANÁLISE DE CHURN
 
 ## 👤 Autor e Contato
 - **Nome**: Carlos Rodrigues
