@@ -37,8 +37,7 @@ A base de dados cancelamentos.csv foi adquirida através de uma uma aula gratuit
 Por meio de estatísticas descritivas, visualizações de dados e modelagem preditiva, buscamos responder às seguintes perguntas-chave:
 - Quais características dos clientes estão mais associadas ao churn?
 - Clientes com maior tempo de contrato têm menor probabilidade de cancelar?
-- Qual o impacto das interações com o call center na retenção?
-- O valor total gasto influencia a decisão de cancelar o serviço?
+- Qual o impacto das interações com o call center nos cancelamentos?
 - Ao final da análise, apresentaremos insights e recomendações práticas para reduzir o churn e melhorar a experiência do cliente.
 
 
@@ -83,15 +82,25 @@ Por meio de estatísticas descritivas, visualizações de dados e modelagem pred
    ```
 
 ## 📈 Resultados e Insights
-- **Principais motivos de cancelamento**: [Descreva]
-- **Distribuição por campus e curso**: [Descreva]
-- **Correlação entre ingresso e evasão**: [Descreva]
-- **Evolução ao longo dos anos**: [Descreva]
+**Identificamos que os clientes cancelaram seus planos de acordo com as situações abaixo:**
+- Todos os clientes do plano Mensal cancelaram
+- Clientes com a partir de 51 anos, cancelaram
+- Clientes que realizaram, a partir de 5 ligações para o Call Center, cancelaram
+- Clientes que tiveram a partir de 21 dias de atraso, cancelaram
+    
+**Taxas de cancelamento:**
+- Taxa de cancelamento = 56,7 %
+- Taxa de cancelamento excluindo os clientes do plano mensal = 46 %
+- Taxa de cancelamento excluindo todos os clientes que ligaram mais de 5 vezes = 40,8 %
+- Taxa de cancelamento excluindo os clientes que atrasaram o pagamento mais de 20 dias ou com idade acima de 50 anos = 46 %
+- Taxa de cancelamento excluindo todos os clientes do plano mensal e que ligaram mais de 5 vezes = 30,5 %
+- Taxa de cancelamento excluindo os clientes do plano mensal, os que atrasaram o pagamento mais de 20 dias e que ligaram mais de 5 vezes = 21,8 %
 
-## 🔮 Objetivos Futuros
-- **Melhoria na coleta de dados**: [Explique melhorias planejadas na obtenção dos dados]
-- **Automatização de análises**: [Descreva melhorias para tornar o processo mais eficiente]
-- **Expansão da base de dados**: [Incluir mais períodos, cursos ou fatores]
-- **Publicação dos resultados**: [Compartilhar insights em artigos ou dashboards interativos]
+**Recomendação para redução do Churn:**
+- Condições melhores para os planos Mensais ou exclusão desses
+- Redução da necessidade de muitas ligações para o Call Center
+- Acompanhamento próximo das pessoas que atrasarem o pagamento
+
+
 
 
